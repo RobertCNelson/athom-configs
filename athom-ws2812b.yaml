@@ -45,7 +45,7 @@ wifi:
 captive_portal:
 
 dashboard_import:
-  package_import_url: github://athom-tech/athom-configs/athom-ws2812b.yaml
+  package_import_url: github://RobertCNelson/athom-configs/athom-ws2812b.yaml
 
 binary_sensor:
   - platform: status

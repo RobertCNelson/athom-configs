@@ -38,7 +38,7 @@ wifi:
 captive_portal:
 
 dashboard_import:
-  package_import_url: github://athom-tech/athom-configs/athom-mini-switch.yaml
+  package_import_url: github://RobertCNelson/athom-configs/athom-mini-switch.yaml
 
 button:
   - platform: factory_reset

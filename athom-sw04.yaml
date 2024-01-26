@@ -41,7 +41,7 @@ wifi:
 captive_portal:
 
 dashboard_import:
-  package_import_url: github://athom-tech/athom-configs/athom-sw04.yaml
+  package_import_url: github://RobertCNelson/athom-configs/athom-sw04.yaml
 
 binary_sensor:
   - platform: status
