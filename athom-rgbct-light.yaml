@@ -3,6 +3,8 @@ substitutions:
   project_name: "Athom Technology.RGBCCT Bulb"
   project_version: "1.1"
   light_restore_mode: RESTORE_DEFAULT_ON
+  light_rgbct_id: rgbct_light
+  light_rgbct_name: "RGBCT_Bulb"
   color_interlock: 'true'
 
 globals:
@@ -102,8 +104,8 @@ output:
 
 light:
   - platform: rgbct
-    id: rgbct_light
-    name: "RGBCT_Bulb"
+    id: ${light_rgbct_id}
+    name: ${light_rgbct_name}
     restore_mode: ${light_restore_mode}
     red: red_output
     green: green_output
